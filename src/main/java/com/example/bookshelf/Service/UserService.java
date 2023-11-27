@@ -79,7 +79,7 @@ public class UserService {
         Optional<User> userOptional = findByUsername(username);
         if (userOptional.isPresent()) {
             User user = userOptional.get();
-            return bookService.getUserBooks(user.getId());
+            return BookService.getUserBooks(user.getId());
         } else {
             throw new UsernameNotFoundException("User not found");
         }

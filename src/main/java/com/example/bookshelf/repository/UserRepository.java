@@ -1,6 +1,6 @@
 package com.example.bookshelf.repository;
 
-import com.example.tasker.Classes.User;
+import com.example.bookshelf.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
